@@ -5,3 +5,11 @@ SPRINT 1
 - [ ] Make edits and committed changes in a README.md file.
 - [ ] Explore atleast one existing Python code related to the project, run it, and evaluate.
 - [ ] Submit updates to the projectroadmap.md file
+----------------------------------------------------------------------------------------------
+- [ ] Commit one change
+- [ ] Commit two changes
+- [ ] Commit three changes
+- [ ] Commit four changes
+- [ ] Commit five changes
+- [ ] Commit six changes
+
