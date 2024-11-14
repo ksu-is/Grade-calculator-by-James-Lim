@@ -1,15 +1,15 @@
 SPRINT 1
 - [x] Have a approved project topic.
-- [ ] Establish a Github account and join the class organization.
-- [ ] Associate ownership of a code repository in our Github organization.
-- [ ] Make edits and committed changes in a README.md file.
-- [ ] Explore atleast one existing Python code related to the project, run it, and evaluate.
-- [ ] Submit updates to the projectroadmap.md file
+- [x] Establish a Github account and join the class organization.
+- [x] Associate ownership of a code repository in our Github organization.
+- [x] Make edits and committed changes in a README.md file.
+- [x] Explore atleast one existing Python code related to the project, run it, and evaluate.
+- [x] Submit updates to the projectroadmap.md file
 ----------------------------------------------------------------------------------------------
-- [ ] Commit one change
-- [ ] Commit two changes
-- [ ] Commit three changes
-- [ ] Commit four changes
+- [x] Commit one change
+- [x] Commit two changes
+- [x] Commit three changes
+- [x] Commit four changes
 - [ ] Commit five changes
 - [ ] Commit six changes
 
