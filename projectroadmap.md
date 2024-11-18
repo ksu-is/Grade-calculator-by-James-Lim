@@ -10,6 +10,6 @@ SPRINT 1
 - [x] Commit two changes
 - [x] Commit three changes
 - [x] Commit four changes
-- [ ] Commit five changes
-- [ ] Commit six changes
+- [x] Commit five changes
+- [x] Commit six changes
 
