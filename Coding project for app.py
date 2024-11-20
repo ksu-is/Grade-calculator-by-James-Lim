@@ -1,5 +1,5 @@
 import statistics  # Built-in function to calculate mathematical statistics of numeric data, helpful in finding the average 1
-grades_dict = {}  # Empty list created over here to store the grades for mutiple assignments and is useful as a quality of life update. 6 
+grades_dict = {}  # Empty dictionary created over here to store the grades for mutiple assignments and is useful as a quality of life update. 6 
 subjects = []
 num_classes = int(input("How many classes are you trying to calculate your grade in? "))
 
@@ -28,15 +28,20 @@ for subject in subjects:
     # Calculate letter grade
     def system(grades_score):  # This is where the grade is scored on a letter basis, this helpful in displaying different facet of information. 3
         if grades_score >= 90:
-            print("Your score for the class is currently an A") 
+            print("Your score for the class is currently an A")
+            return "A"
         elif grades_score >= 80:
             print("Your score for the class is currently a B")
+            return "B"
         elif grades_score >= 70:
             print("Your score for the class is currently a C")
+            return "C"
         elif grades_score >= 60:
             print("Your score for the class is currently a D")
+            return "D"
         else:
             print("Your score for the class is currently a F")
+            return "F"
 
     final_grade = system(grades_score)
 
@@ -45,4 +50,3 @@ print("\nSummary of all subjects and grades:")
 for subject, avg_score in grades_dict.items():
     final_grade = system(avg_score)
     print(f"{subject}: Average Score: {avg_score}, Current Grade: {final_grade}")
-
