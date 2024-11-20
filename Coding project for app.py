@@ -25,7 +25,6 @@ for subject in subjects:
     # Store grades in the dictionary
     grades_dict[subject] = grades_score
 
-    # Calculate letter grade
     def system(grades_score):  # This is where the grade is scored on a letter basis, this helpful in displaying different facet of information. 3
         if grades_score >= 90:
             print("Your score for the class is currently an A")
