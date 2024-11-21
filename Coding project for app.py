@@ -25,6 +25,7 @@ for subject in subjects:
     # Store grades in the dictionary
     grades_dict[subject] = grades_score
 
+    # Calculate letter grade
     def system(grades_score):  # This is where the grade is scored on a letter basis, this helpful in displaying different facet of information. 3
         if grades_score >= 90:
             print("Your score for the class is currently an A")
@@ -48,4 +49,5 @@ for subject in subjects:
 print("\nSummary of all subjects and grades:")
 for subject, avg_score in grades_dict.items():
     final_grade = system(avg_score)
-    print(f"{subject}: Average Score: {avg_score}, Current Grade: {final_grade}")
+    print(f"{subject}: Average Score: {avg_score}, Final Grade: {final_grade}")
+
