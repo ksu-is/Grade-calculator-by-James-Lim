@@ -6,10 +6,15 @@ SPRINT 1
 - [x] Explore atleast one existing Python code related to the project, run it, and evaluate.
 - [x] Submit updates to the projectroadmap.md file
 ----------------------------------------------------------------------------------------------
+SPRINT 2
 - [x] Commit one change
 - [x] Commit two changes
 - [x] Commit three changes
 - [x] Commit four changes
 - [x] Commit five changes
 - [x] Commit six changes
-
+----------------------------------------------------------------------------------------------
+SPRINT 3
+- [x] Make presentation slide
+----------------------------------------------------------------------------------------------
+Final Presentation
