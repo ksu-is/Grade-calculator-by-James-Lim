@@ -45,7 +45,7 @@ for subject in subjects:
 
     final_grade = system(grades_score)
 
-#Finally, this displays all final grades for all subjects at the end
+# Finally, this displays a summary for all subjects displaying the class average, final grade, and letter grade
 print("\nSummary of all subjects and grades:")
 for subject, avg_score in grades_dict.items():
     final_grade = system(avg_score)
