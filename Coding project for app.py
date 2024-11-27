@@ -8,11 +8,11 @@ for i in range(number_of_classes):  # This is used to loop over the number of cl
     subjects.append(subject)
 
 for subject in subjects: 
-    grades = []  # Store the grades user input used for the current subject
-    print(f"\nEntering grades for {subject}:")
+    grades = []  # Store the grades user input used for the current subject 
+    print(f"\nEntering grades for {subject}:") #  f-string is used which allows the user input to embed the value of the subject variable into the string.
 
-    while len(grades) < 5:  # Counts up the total attempts grades has untill its over 5. Useful counter for the number of assignments. 2
-        user_input = int(input(f"Enter the score for assignment {len(grades) + 1}: "))  # F string used to help append items until into the list which is useful for the counting system. 4
+    while len(grades) < 5:  # counts up the total attempts grades has untill its over 5. Useful counter for the number of assignments. 2
+        user_input = int(input(f"Enter the score for assignment {len(grades) + 1}: "))  # Promts user to enter score, while displaying the number of assignments.
         if 0 <= user_input <= 100:  # Ensure the user input score is between 0 and 100 
             grades.append(user_input)
         else:
@@ -20,7 +20,7 @@ for subject in subjects:
     
     # Calculate average score for the current subject 
     grades_score = statistics.mean(grades)
-    print(f"Average score for {subject}: {grades_score}")
+    print(f"Average score for {subject}: {grades_score}") # Subject and grade_score is replaced with the subject and grades_score variable 
 
     # Store grades in the dictionary which helps when sorting grades to each specfic class.
     grades_dict[subject] = grades_score
@@ -49,8 +49,6 @@ for subject in subjects:
 print("\nSummary of all subjects and grades:")
 for subject, avg_score in grades_dict.items():
     final_grade = letter_grade(avg_score)
-    print(f"{subject}: Average Score: {avg_score}, Final Grade: {final_grade}")
-
-
+    print(f"{subject}: Average Score: {avg_score}, Final Grade: {final_grade}") # Pulls out each coresponding variable to use in a string.
 
 
