@@ -9,7 +9,7 @@ for i in range(number_of_classes):  # This is used to loop over the number of cl
 
 for subject in subjects: 
     grades = []  # Store the grades user input used for the current subject.
-    print(f"\nEntering grades for {subject}:") #  f-string is used which allows the user input to embed the value of the subject variable into the string.
+    print(f"\nEntering grades for {subject}:") # f-string is used which allows the user input to embed the value of the subject variable into the string.
 
     while len(grades) < 5:  # Counts up the total attempts grades has untill its over 5. Useful counter for the number of assignments.
         user_input = int(input(f"Enter the score for assignment {len(grades) + 1}: "))  # Prompts user to enter score, while displaying the number of assignments.
