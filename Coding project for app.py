@@ -20,12 +20,12 @@ for subject in subjects:
     
     # Calculate average score for the current subject 
     grades_score = statistics.mean(grades)
-    print(f"Average score for {subject}: {grades_score}") # Subject and grade_score is replaced with the subject and grades_score variable 
+    print(f"Average score for {subject}: {grades_score}") # Subject and grade_score is replaced with the subject and grades_score variable.
 
     # Store grades in the dictionary which helps when sorting grades to each specfic class.
     grades_dict[subject] = grades_score
 
-    # Calculate letter grade and the final for the class
+    # Calculate letter grade and the final for the class.
     def letter_grade(grades_score):  # This is where the grade is scored on a letter basis, this helpful in displaying different facet of information. 
         if grades_score >= 90:
             print("Your score for the class is currently an A")
@@ -45,7 +45,7 @@ for subject in subjects:
 
     final_grade = letter_grade(grades_score)
 
-# Finally, this displays a summary for all subjects displaying the class average, final grade, and letter grade
+# Finally, this displays a summary for all subjects displaying the class average, final grade, and letter grade.
 print("\nSummary of all subjects and grades:")
 for subject, avg_score in grades_dict.items():
     final_grade = letter_grade(avg_score)
