@@ -11,7 +11,7 @@ for subject in subjects:
     grades = []  # Store the grades user input used for the current subject
     print(f"\nEntering grades for {subject}:")
 
-    while len(grades) < 5:  # counts up the total attempts grades has untill its over 5. Useful counter for the number of assignments. 2
+    while len(grades) < 5:  # Counts up the total attempts grades has untill its over 5. Useful counter for the number of assignments. 2
         user_input = int(input(f"Enter the score for assignment {len(grades) + 1}: "))  # F string used to help append items until into the list which is useful for the counting system. 4
         if 0 <= user_input <= 100:  # Ensure the user input score is between 0 and 100 
             grades.append(user_input)
